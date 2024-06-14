@@ -17,4 +17,5 @@ void DPRINT(LPCWSTR str, auto... args)
             OutputDebugStringW(buf);
         }
     }
+}
 #endif
